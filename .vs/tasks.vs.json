@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-exerciciosApostila1",
+      "appliesTo": "exerciciosApostila1.cs",
+      "type": "launch"
+    }
+  ]
+}
