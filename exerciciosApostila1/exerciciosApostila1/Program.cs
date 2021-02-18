@@ -12,9 +12,10 @@ namespace exerciciosApostila1
             Console.WriteLine("Elabore um programa em console, C#, para calcular a resistência equivalente entre dois registros R1 e R2 em paralelo. ");
             Console.WriteLine("======================================================================================================================");
             
-            double firstValue = 0;
+            // Inicialization 
+            double firstValue  = 0;
             double secondValue = 0;
-            double resultReq = 0;
+            double resultReq   = 0;
 
             // Get first value of console
             Console.Write("Digite o valor de R1: ");
@@ -58,6 +59,69 @@ namespace exerciciosApostila1
             result = Math.Sqrt(result);
             Console.WriteLine("A distância dos pontos é de: " + result);
             Console.WriteLine("======================================================================================================================");
+            // ====================================================================================================================================================
+
+            Console.WriteLine("Exercicio 3");
+            Console.WriteLine("Escreva um programa em console, c#, e requisite ao operador o nome, o sexo, o peso, a altura e data de nascimento. Como resultado imprima no console os seguintes resultados:");
+
+            string nomeBmc   = "";
+            string genreBmc  = "";
+            string dateBmc   = "";
+            double ageBmc    =  0;
+            double heightBmc =  0;
+            double weightBmc =  0;
+            double resultBmc =  0;
+
+
+            // Get value relative of the name
+            Console.WriteLine("Digite seu nome: ");
+            nomeBmc = Console.ReadLine();
+
+            // Get value relative of the genre
+            Console.WriteLine("Digite seu sexo: (M) -- (F)");
+            genreBmc = Console.ReadLine();
+
+            while ((genreBmc != "M") && (genreBmc != "F")) {
+                // Get value relative of the genre
+                Console.WriteLine("Digite seu sexo: ");
+                genreBmc = Console.ReadLine();
+            }
+
+            // Get value relative of the date
+            Console.WriteLine("Digite a data de nascimento (DD/MM/YYYY) : ");
+            dateBmc = Console.ReadLine();
+
+            // Get value relative of the weight
+            Console.WriteLine("Digite seu peso: ");
+            weightBmc = double.Parse(Console.ReadLine());
+
+            // Get value relative of the height
+            Console.WriteLine("Digite sua altura: ");
+            heightBmc = double.Parse(Console.ReadLine());
+
+            // Get value relative of the age
+            Console.WriteLine("Digite sua idade: ");
+            ageBmc = double.Parse(Console.ReadLine());
+
+            resultBmc = weightBmc / (heightBmc * heightBmc);
+
+            Console.WriteLine("Olá " + nomeBmc + " declarado como" + (genreBmc == "M" ? " Masculino" : "Feminino") + " nascido em " + dateBmc + ", sua idade é de: " + ageBmc + " e seu BMC(IMC) é de: " + resultBmc);
+            if (resultBmc < 17) {
+                Console.WriteLine("==> Você está muito abaixo do peso.");
+            } else if (resultBmc >= 17 && resultBmc <= 18.49) {
+                Console.WriteLine("==> Você está abaixo do peso.");
+            } else if (resultBmc >= 18.5 && resultBmc <= 24.99) {
+                Console.WriteLine("==> Você está no peso normal.");
+            } else if (resultBmc >= 25 && resultBmc <= 29.99) {
+                Console.WriteLine("==> Você está acima do peso.");
+            } else if (resultBmc >= 30 && resultBmc <= 34.99) {
+                Console.WriteLine("==> Você está com obesidade nível 1.");
+            } else if (resultBmc >= 35 && resultBmc <= 39.99) {
+                Console.WriteLine("==> Você está com obesidade nível 2.");
+            } else if (resultBmc > 40) {
+                Console.WriteLine("==> Você está com obesidade nível 3.");
+            }
+
             Console.ReadKey();
         }
     }
