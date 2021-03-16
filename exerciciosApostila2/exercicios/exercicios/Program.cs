@@ -68,16 +68,16 @@ namespace exercicios
                     Console.WriteLine("================================================");
                     break;
 
-                case 2: 
+                case 2:
                     Console.WriteLine("================================================");
                     Console.WriteLine("Exercício 2");
                     Console.WriteLine("Elabore um programa que requisite ao operador 3 números. Desenvolva uma rotina que encontre o menor número e imprima-o no console." +
                         " Valide para que nenhum número seja igual ao outro.");
 
                     int valueAux2 = 0;
-                    int value1   = 0;
-                    int value2   = 0;
-                    int value3   = 0;
+                    int value1 = 0;
+                    int value2 = 0;
+                    int value3 = 0;
 
                     Console.Write("Digite o primeiro valor: ");
                     value1 = int.Parse(Console.ReadLine());
@@ -111,8 +111,33 @@ namespace exercicios
                     Console.WriteLine("Elaborar um programa para receber a pontuação de duas notas. Se a média for maior que 7," +
                     " o programa deverá escrever a mensagem Parabéns você aprovou com a nota X, ou, Sua nota foi X e você foi Reprovado! ");
 
+                    int nota1 = 0;
+                    int nota2 = 0;
+                    double notaTotal = 0;
 
+                    Console.WriteLine("Digite o valor da primeira nota: ");
+                    nota1 = int.Parse(Console.ReadLine());
 
+                    while (nota1 < 0 || nota1 > 10) {
+                        Console.WriteLine("Valor incorreto! Digite o valor da primeira nota: ");
+                        nota1 = int.Parse(Console.ReadLine());
+                    }
+
+                    Console.WriteLine("Digite o valor da segunda nota: ");
+                    nota2 = int.Parse(Console.ReadLine());
+
+                    while (nota2 < 0 || nota2 > 10) {
+                        Console.WriteLine("Valor incorreto! Digite o valor da segunda nota: ");
+                        nota2 = int.Parse(Console.ReadLine());
+                    }
+
+                    notaTotal = ( (nota1 + nota2) / 2 );
+
+                    if (notaTotal >= 7) {
+                        Console.WriteLine("Parabéns você aprovou com a nota: " + notaTotal);
+                    } else {
+                        Console.WriteLine("Parabéns você reprovou com a nota: " + notaTotal);
+                    }
 
                     break;
 
