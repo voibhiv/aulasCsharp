@@ -11,3 +11,16 @@ C:\Users\User\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios
 C:\Users\User\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.dll
 C:\Users\User\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.pdb
 C:\Users\User\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.genruntimeconfig.cache
+C:\Users\leo13\Source\Repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.csprojAssemblyReference.cache
+C:\Users\leo13\Source\Repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.AssemblyInfoInputs.cache
+C:\Users\leo13\Source\Repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.AssemblyInfo.cs
+C:\Users\leo13\Source\Repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.csproj.CoreCompileInputs.cache
+C:\Users\leo13\Source\Repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.dll
+C:\Users\leo13\Source\Repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.pdb
+C:\Users\leo13\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\bin\Debug\netcoreapp3.1\exercicios.exe
+C:\Users\leo13\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\bin\Debug\netcoreapp3.1\exercicios.deps.json
+C:\Users\leo13\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\bin\Debug\netcoreapp3.1\exercicios.runtimeconfig.json
+C:\Users\leo13\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\bin\Debug\netcoreapp3.1\exercicios.runtimeconfig.dev.json
+C:\Users\leo13\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\bin\Debug\netcoreapp3.1\exercicios.dll
+C:\Users\leo13\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\bin\Debug\netcoreapp3.1\exercicios.pdb
+C:\Users\leo13\source\repos\aulasCsharp\exerciciosApostila2\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.genruntimeconfig.cache
